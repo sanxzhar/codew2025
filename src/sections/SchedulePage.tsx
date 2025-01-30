@@ -24,13 +24,14 @@ const ScheduleHeader = () => {
 
   const scheduleHeaderStyles: { [key: string]: CSSProperties } = {
     container: {
+      width: '100%',
       display: 'flex',
       flexDirection: isMobile ? 'column' : 'row',
       justifyContent: 'space-between',
       justifyItems: 'center',
       alignItems: 'center',
-      width: '100%',
-      maxWidth: '1200px',
+      
+      maxWidth: '1080px',
       gap: isMobile ? '16px' : '32px',
       color: '#fff',
       fontFamily: '"Press Start 2P", sans-serif',
@@ -70,7 +71,7 @@ const ScheduleHeader = () => {
       width: isMobile ? '90px' : isTablet ? '150px' : '210px',
       height: isMobile ? '40px' : isTablet ? '65px' : '80px',
       marginBottom: isMobile ? '10px' : '0',
-      marginLeft: isMobile ? '0' : '-60px', // Move 20px right for desktop
+      marginLeft: isMobile ? '0' : '-90px', // Move 20px right for desktop
     },
     imageWrapper: {
       flex: '1',
@@ -116,10 +117,9 @@ const ScheduleHeader = () => {
 const SchedulePage = () => (
   <div
     style={{
-      height: '100vh',
       width: '100vw',
       background: 'linear-gradient(180deg, #0A062E 25%, #201394 100%)',
-      overflow: 'hidden', // Prevent scrolling
+      //overflow: 'hidden', // Prevent scrolling
       padding: 0,
       margin: 0,
       display: 'flex',
@@ -136,7 +136,7 @@ const SchedulePage = () => (
             padding: 0;
             overflow-x: hidden; /* Prevent horizontal scrolling */
             width: 100%;
-            height: 100%;
+            
           }
         `}
       </style>
