@@ -1,20 +1,21 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
-import { WelcomeSection } from './sections'
+import {WelcomeSection} from './sections/';
 import Navbar from "./components/Navbar";
 import Cursor from "./components/Cursor";
+import InfoPage from './sections/InfoPage';
+import SchedulePage from './sections/SchedulePage';
+import OurTeam from './sections/OurTeam/OurTeam'
 
 function App() {
-
   return (
-    <div className='max-w-screen'>
+    <div>
       <Navbar />
       <Cursor />
       <WelcomeSection />
+      <InfoPage/>
+      <OurTeam />
+      <SchedulePage/>
     </div>
   )
 }
 
-export default App
+export default App;
