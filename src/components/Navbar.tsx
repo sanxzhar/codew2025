@@ -4,7 +4,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#1C126D] shadow-md top-0 left-0 w-full z-10">
+    <nav className="bg-[#1C126D] shadow-md top-0 left-0 w-full z-10 fixed">
       <div className="mx-auto px-4">
         <div className="flex justify-between sm:justify-center items-center py-6">
 
