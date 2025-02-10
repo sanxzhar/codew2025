@@ -8,7 +8,7 @@ export const WelcomeSection = () => {
         <div className="relative">
             <img className="absolute w-20 top-6 left-0 md:w-40 md:-left-30 md:top-2" src={zvezda}/>
             <p className=" text-[60px] md:text-[100px] flex justify-center pt-12 text-center">
-                CODEW 2024
+                CODEW 2025
             </p>
         </div>
 

@@ -18,7 +18,7 @@ const CodeWinNetwork = () => {
             </a>
             <div className="montserrat md:text-3xl text-[12px] mt-32 flex md:flex-row md:gap-10 gap-5 flex-col-reverse">
                 <div>
-                    <div>© 2023 NU ACM-Women SC All rights reserved.</div>
+                    <div>© 2025 NU ACM-Women SC All rights reserved.</div>
                     <div>Made with ❤️ by developer designer names.</div>
                 </div>
                 <div className='flex gap-5 justify-center'>
