@@ -34,6 +34,4 @@ function App() {
   )
 }
 
-// rewrite infoPage and SchedulePages
-
 export default App;

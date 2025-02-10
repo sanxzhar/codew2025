@@ -222,7 +222,7 @@ const InfoPage: React.FC = () => {
   };
 
   return (
-    <div style={styles.page}>
+    <div id="about" style={styles.page}>
       {/* Title Section */}
       <Title />
       <Helmet>

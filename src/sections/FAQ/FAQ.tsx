@@ -5,6 +5,7 @@ import FAQsmall from "../../assets/faqsmall.svg";
 export const FAQ = () => {
   return (
     <section
+      id="faq"
       className={
         "lg:px-24 px-12 mx-auto text-white pt-32 lg:pt-24 pb-32 bg-[#0A062E]"
       }
@@ -27,41 +28,49 @@ export const FAQ = () => {
           </span>
         </div>
 
-        <div className="montserrat flex md:flex-row md:gap-50 gap-5 md:mt-[50px] mt-[30px] flex-col">
+        <div className="montserrat flex md:flex-row md:gap-45 gap-5 md:mt-[50px] mt-[30px] flex-col">
           <div className="w-full gap-5 flex flex-col">
             <FAQItem
-              question="Who can participate?"
-              answer="Every citizen of Kazakhstan older than 16 years can participate in this event both online and offline. However, please note that if you participate online, you are not eligible for prizes and coffee break."
+              question="Who can participate in codeW2025?"
+              answer="All female undergraduate students of universities and female high school students can apply to participate in codeW2025."
             />
             <FAQItem
-              question="What are the prizes?"
-              answer="The total prize pool this year is 650.000 tenge, as well as ACM@NU merchandise."
+              question="What if I am not from Astana?"
+              answer="You are still able to apply and travel to Astana for the contest."
             />
             <FAQItem
-              question="I am studying at school, am I eligible for the prize?"
-              answer="Yes! If you are 16+ years old and participate offline, you are eligible for the prize."
+              question="What if I am a complete beginner?"
+              answer="It is great! codeW2025 is a great opportunity for you to discover the world of competitive programming and get hands-on experience."
             />
             <FAQItem
-              question="Who is the organizer?"
-              answer="Organizer of this event is the ACM Student Chapter of Nazarbayev University’s student’s club ACM@NU."
+              question="If I competed before, does it affect my track this year?"
+              answer="Yes, if you won 1st, 2nd or 3rd place in certain track of previous years codeW, you will compete only in tracks higher this year."
+            />
+            <FAQItem
+              question="What is the format of codeW2025?"
+              answer="Contest will be held offline in Nazarbayev University, Astana, Kazakhstan."
             />
           </div>
           <div className="w-full gap-5 flex flex-col">
             <FAQItem
-              question="Is participation free?"
-              answer="Yes! Participation is totally free!"
+              question="Is it free?"
+              answer="Yes, it is absolutely free of charge"
             />
             <FAQItem
-              question="What’s the difference between offline and online participation?"
-              answer="Offline participants are eligible to enter the Nazarbayev University campus during the event day, are eligible for totally free coffee break, and are eligible for prizes. Meanwhile, if you register as an online participant, you will not be able to enter the University’s campus and you will not be eligible for prizes (both money prize pool and ACM@NU merchandise)."
+              question="What is the qualification round?"
+              answer="It is a set of competitive programming tasks similar to the actual contest for us to identify the most suitable track for you and for you to practice."
             />
             <FAQItem
-              question="Who is eligible for the prize?"
-              answer="Every offline participant is eligible for the prize!"
+              question="Which track do I get?"
+              answer="We identify your track based on your qualification round results, so make sure to take it in time."
             />
             <FAQItem
-              question="How to be a part of NU ACM SC?"
-              answer="We will open our recruitment next Spring, so please, follow us on instagram @nuacmsc to stay up to date!"
+              question="Do I have to know English?"
+              answer="Not at all, tasks will be given in 3 languages: English, Kazakh and Russian languages"
+            />
+            <FAQItem
+              question="What programming languages are available?"
+              answer="The contest will be held on Codeforces, and the accepted programming languages are those accepted by the platform."
             />
           </div>
         </div>

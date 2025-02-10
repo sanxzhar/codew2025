@@ -18,7 +18,7 @@ export const WelcomeSection = () => {
         </div>
     
       </div>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzIn915jKLyWL_clo84NhIRAuyMdrO9kfGn1ykY79H0tBwOA/viewform">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScKzTVn6kJ9rUulafQfiNo_Z3MnnWyXIOyX4WsBGDNqKXev3Q/viewform">
           <button className="text-white font-ubuntu text-xl px-10 py-5 mb-10 bg-[#DA3193] rounded-[15px] font-bold uppercase md:mt-11 mt-[18px]">
             REGISTER
           </button>

@@ -6,6 +6,7 @@ import "./ourTeam.css";
 const OurTeam = () => {
   return (
     <section
+      id="team"
       className={
         "lg:px-24 px-12 mx-auto text-white pt-32 lg:pt-24 pb-32 bg-[#0A062E]"
       }

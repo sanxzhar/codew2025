@@ -24,7 +24,7 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-[#0a062e] via-[#18083d] to-[#0a062e] flex flex-col gap-20 md:gap-40 p-15 lg:p-30 items-center justify-center text-white">
+    <div id="timeline" className="relative min-h-screen bg-gradient-to-b from-[#0a062e] via-[#18083d] to-[#0a062e] flex flex-col gap-20 md:gap-40 p-15 lg:p-30 items-center justify-center text-white">
     {/* SVG positioned for responsiveness */}
     <img src="/Group.svg" alt="Star" className="absolute top-15 left-5 w-20 h-20 md:top-40 md:left-20 lg:top-40 lg:left-25 md:w-45 md:h-45" />
   
@@ -43,7 +43,7 @@ const Timeline = () => {
           <h2 className="text-2xl lg:text-4xl font-semibold mb-6 md:mb-15 text-center">
             {event.date}
           </h2>
-          <p className="text-lg sm:text-2xl text-left m-2 lg:m-3">{event.description}</p>
+          <p className="text-lg sm:text-2xl text-left m-2 lg:m-0">{event.description}</p>
         </div>
       ))}
     </div>

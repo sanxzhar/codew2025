@@ -116,6 +116,7 @@ const ScheduleHeader = () => {
 
 const SchedulePage = () => (
   <div
+    id="schedule"
     style={{
       width: '100vw',
       background: 'linear-gradient(180deg, #0A062E 25%, #201394 100%)',
