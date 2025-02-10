@@ -8,6 +8,7 @@ import { FAQ } from './sections/FAQ/FAQ';
 import CodeWinNetwork from './sections/CodeWinNetwork/CodeWinNetwork';
 import Sponsors from './sections/Sponsors/Sponsors';
 import Line from './components/Line';
+import Timeline from './sections/Timeline/Timeline';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <WelcomeSection />
       <Line />
       <InfoPage/>
+      <Line />
+      <Timeline/>
       <Line />
       <SchedulePage/>
       <Line />
