@@ -19,7 +19,7 @@ const CodeWinNetwork = () => {
             <div className="montserrat md:text-3xl text-[12px] mt-32 flex md:flex-row md:gap-10 gap-5 flex-col-reverse">
                 <div>
                     <div>© 2025 NU ACM-Women SC All rights reserved.</div>
-                    <div>Made with ❤️ by developer designer names.</div>
+                    <div>Made with ❤️ by developers team.</div>
                 </div>
                 <div className='flex gap-5 justify-center'>
                     <a href="https://www.instagram.com/nuacm_wsc/"> <img className="w-8 md:w-16" src={InstaImage} /> </a>
