@@ -14,7 +14,7 @@ export default function Cursor() {
 
   return (
     <div
-      className="fixed w-10 h-10 z-10 pointer-events-none transition-transform duration-100 ease-out"
+      className="fixed w-10 h-10 z-100 pointer-events-none transition-transform duration-100 ease-out"
       style={{
         left: position.x,
         top: position.y,

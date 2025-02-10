@@ -6,7 +6,7 @@ export const WelcomeSection = () => {
     <div className="md:mt-15 w-full h-full p-[30px] flex flex-col justify-center items-center bg-linear-to-t from-[#201394] to-[#0A062E]">
       <div className="text-white max-h-full flex flex-col-reverse md:flex-col items-center w-full md:mt-10 md:mb-10 mt-22 mb-22">
         <div className="relative">
-            <img className="absolute w-20 top-6 left-0 md:w-40 md:-left-30 md:top-2" src={zvezda}/>
+            <img className="absolute z-[-1] w-20 top-6 left-0 md:w-40 md:-left-30 md:top-2" src={zvezda}/>
             <p className=" text-[60px] md:text-[100px] flex justify-center pt-12 text-center">
                 CODEW 2025
             </p>
@@ -18,7 +18,7 @@ export const WelcomeSection = () => {
         </div>
     
       </div>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScKzTVn6kJ9rUulafQfiNo_Z3MnnWyXIOyX4WsBGDNqKXev3Q/viewform">
+      <a className="z-10" href="https://docs.google.com/forms/d/e/1FAIpQLScKzTVn6kJ9rUulafQfiNo_Z3MnnWyXIOyX4WsBGDNqKXev3Q/viewform">
           <button className="text-white font-ubuntu text-xl px-10 py-5 mb-10 bg-[#DA3193] rounded-[15px] font-bold uppercase md:mt-11 mt-[18px]">
             REGISTER
           </button>

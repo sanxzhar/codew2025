@@ -25,11 +25,11 @@ export default function Navbar() {
 
         {isOpen && (
           <div className="md:hidden flex flex-col space-y-2 pb-4 font-montserrat">
-            <a href="#" className="text-white hover:text-pink-500">About</a>
-            <a href="#" className="text-white hover:text-pink-500">Timeline</a>
-            <a href="#" className="text-white hover:text-pink-500">Schedule</a>
-            <a href="#" className="text-white hover:text-pink-500">Team</a>
-            <a href="#" className="text-white hover:text-pink-500">FAQ</a>
+            <a href="#about" className="text-white hover:text-pink-500">About</a>
+            <a href="#timeline" className="text-white hover:text-pink-500">Timeline</a>
+            <a href="#schedule" className="text-white hover:text-pink-500">Schedule</a>
+            <a href="#team" className="text-white hover:text-pink-500">Team</a>
+            <a href="#faq" className="text-white hover:text-pink-500">FAQ</a>
           </div>
         )}
       </div>
