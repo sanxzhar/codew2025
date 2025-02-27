@@ -19,7 +19,7 @@ export const WelcomeSection = () => {
     
       </div>
       <a className="z-10" href="https://docs.google.com/forms/d/e/1FAIpQLScKzTVn6kJ9rUulafQfiNo_Z3MnnWyXIOyX4WsBGDNqKXev3Q/viewform">
-          <button className="text-white font-ubuntu text-xl px-10 py-5 mb-10 bg-[#DA3193] rounded-[15px] font-bold uppercase md:mt-11 mt-[18px]">
+          <button className="text-white font-ubuntu text-xl px-10 py-5 mb-10 bg-[#DA3193] !important rounded-[15px] font-bold uppercase md:mt-11 mt-[18px]">
             REGISTER
           </button>
         </a>
