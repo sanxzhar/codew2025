@@ -1,5 +1,5 @@
 import { CSSProperties } from 'react';
-import scheduleImage from '../assets/schedule.png';
+import scheduleImage from '../assets/schedule-2.png';
 import { Helmet } from 'react-helmet';
 import starImage from '../assets/star.svg';
 import { useState, useEffect } from 'react';
