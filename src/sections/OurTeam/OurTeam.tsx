@@ -39,7 +39,7 @@ const OurTeam = () => {
         >
           <p
             className={
-              "montserrat text-left max-w-full max-2xl:text-3xl max-xl:text-2xl max-lg:text-xl max-md:text-lg max-sm:text-sm  max-2xl:max-w-md text-4xl pt-12 max-2xl:pt-8"
+              "montserrat text-left max-w-full max-2xl:text-xl max-xl:text-lg max-lg:text-sm max-md:text-sm max-sm:text-sm text-2xl pt-12 max-2xl:pt-8 md:w-1/3"
             }
           >
             <span className={"text-[#D12C87]"}>NU ACM-W Student Chapter</span>{" "}
@@ -54,11 +54,11 @@ const OurTeam = () => {
             and technical growth initiatives.
           </p>
           <div
-            className={"max-w-[970px] mt-8 flex items-center justify-center"}
+            className={"md:w-2/3 mt-8 flex items-center justify-center"}
           >
             <img
               src={ourTeamImage}
-              className={"md:rounded-[50px]"}
+              className={"md:rounded-[50px] w-full h-auto object-contain"}
               alt="team image"
             />
           </div>
