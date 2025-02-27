@@ -249,7 +249,7 @@ const InfoPage: React.FC = () => {
           </p>
           <p style={styles.infoText}>
             The event will take place at <span style={styles.highlightedText}>Nazarbayev University</span> on{" "}
-            <span style={styles.highlightedText}>March 9th, 2025</span>.
+            <span style={styles.highlightedText}>March 15th, 2025</span>.
           </p>
         </div>
 
