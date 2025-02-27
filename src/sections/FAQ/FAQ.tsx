@@ -36,7 +36,7 @@ export const FAQ = () => {
             />
             <FAQItem
               question="What if I am not from Astana?"
-              answer="You are still able to apply and travel to Astana for the contest."
+              answer="Unfortunately, you cannot participate online in the main contest, so if you want to participate, you should travel to Astana."
             />
             <FAQItem
               question="What if I am a complete beginner?"

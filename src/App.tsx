@@ -1,6 +1,6 @@
 import {WelcomeSection} from './sections/';
 import Navbar from "./components/Navbar";
-import Cursor from "./components/Cursor";
+// import Cursor from "./components/Cursor";
 import InfoPage from './sections/InfoPage';
 import SchedulePage from './sections/SchedulePage';
 import OurTeam from './sections/OurTeam/OurTeam'
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='w-full bg-[#201394]'>
       <Navbar />
-      <Cursor />
+      {/* <Cursor /> */}
       <WelcomeSection />
       <Line />
       <InfoPage/>

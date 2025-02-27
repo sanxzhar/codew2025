@@ -3,21 +3,21 @@
 const Timeline = () => {
   const events = [
     {
-      date: "February 25th",
+      date: "March 9th",
       description:
         "Registration Deadline, no applications will be accepted after 23:59",
     },
     {
-      date: "February 28th",
+      date: "March 10th",
       description:
         "Link to the qualification contest will be sent to those who are eligible to participate",
     },
     {
-      date: "March 3rd",
+      date: "March 12th",
       description: "Deadline to complete qualification contest",
     },
     {
-      date: "March 5th",
+      date: "March 13th",
       description:
         "Confirmation of participation with track based on qualification contest will be sent",
     },

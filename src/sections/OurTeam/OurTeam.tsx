@@ -1,4 +1,4 @@
-import ourTeamImage from "../../assets/ourteamimage.jpeg";
+import ourTeamImage from "../../assets/ourteam.jpg";
 import ourTeamSvg from "../../assets/ourteamsvg.svg";
 import ourTeamSvgBig from "../../assets/ourteamsvgbig.svg";
 import "./ourTeam.css";
